@@ -1,0 +1,49 @@
+
+Test 1
+
+Function call: isWordGuessed('apple', ['a', 'e', 'i', 'k', 'p', 'r', 's'])
+
+Output:
+
+    False
+
+Test 2
+
+Function call: isWordGuessed('durian', ['h', 'a', 'c', 'd', 'i', 'm', 'n', 'r', 't', 'u'])
+
+Output:
+
+    True
+
+Random Test 1
+
+Function call: isWordGuessed('pineapple', ['m', 'o', 'x', 's', 'q', 'l', 'u', 'c', 'b', 'g'])
+
+Output:
+
+    False
+
+Random Test 2
+
+Function call: isWordGuessed('grapefruit', ['y', 's', 'z', 'a', 'm', 'c', 'e', 'j', 'h', 'g'])
+
+Output:
+
+    False
+
+Random Test 3
+
+Function call: isWordGuessed('banana', [])
+
+Output:
+
+    False
+
+Random Test 4
+
+Function call: isWordGuessed('pineapple', ['z', 'x', 'q', 'p', 'i', 'n', 'e', 'a', 'p', 'p', 'l', 'e'])
+
+Output:
+
+    True
+

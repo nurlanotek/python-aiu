@@ -1,0 +1,49 @@
+
+Test 1
+
+Function call: getGuessedWord('apple', ['e', 'i', 'k', 'p', 'r', 's'])
+
+Output:
+
+    '_ p p _ e '
+
+Test 2
+
+Function call: getGuessedWord('durian', ['a', 'c', 'd', 'h', 'i', 'm', 'n', 'r', 't', 'u'])
+
+Output:
+
+    'd u r i a n '
+
+Random Test 1
+
+Function call: getGuessedWord('grapefruit', ['p', 'k', 'q', 'f', 'u', 'c', 'o', 'b', 'e', 'a'])
+
+Output:
+
+    '_ _ a p e f _ u _ _ '
+
+Random Test 2
+
+Function call: getGuessedWord('grapefruit', ['e', 'j', 'a', 'q', 's', 'r', 'g', 'l', 'i', 'x'])
+
+Output:
+
+    'g r a _ e _ r _ i _ '
+
+Random Test 3
+
+Function call: getGuessedWord('broccoli', [])
+
+Output:
+
+    '_ _ _ _ _ _ _ _ '
+
+Random Test 4
+
+Function call: getGuessedWord('broccoli', ['g', 'n', 'h', 'a', 'd', 'i', 'o', 'p', 'u', 'l'])
+
+Output:
+
+    '_ _ o _ _ o l i '
+
